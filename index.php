@@ -1,11 +1,10 @@
 <?php
 
-$nama = "Gaizka";
-$umur = 29;
-$pekerjaan = "Programmer";
+$penghasilan = 2500000;
+$bonus = 500000;
 
-echo "Nama: $nama <br>";
-echo "Umur: $umur <br>";
-echo "Pekerjaan: $pekerjaan";
+$total = $penghasilan + $bonus;
+
+echo $total;
 
 ?>
