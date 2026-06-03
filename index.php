@@ -1,10 +1,11 @@
 <?php
 
-$penghasilan = 2500000;
-$bonus = 500000;
+$nilai = 80;
 
-$total = $penghasilan + $bonus;
-
-echo $total;
+if ($nilai >= 75) {
+    echo "Lulus";
+} else {
+    echo "Tidak Lulus";
+}
 
 ?>
