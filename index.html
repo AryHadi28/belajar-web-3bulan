@@ -9,12 +9,19 @@
 </head>
 <body>
 
+    <nav>
+    <h3>Gaizka Dev</h3>
+    </nav>
     <header>
         <h1>Halo, Saya Gaizka</h1>
+        <img src="Profile.jpeg" alt="Foto Profil">
     </header>
 
+<section>
+    <div class="container">
+
     <section>
-        <p>
+        <p id="description">
             Saya sedang belajar menjadi web developer menggunakan Laravel.
         </p>
     </section>
@@ -22,17 +29,62 @@
     <section>
         <h2>Skill yang Ingin Dipelajari</h2>
 
-        <ul>
+        <ul class="skill-list">
             <li>HTML & CSS</li>
             <li>JavaScript</li>
             <li>PHP</li>
+            <li>SQL</li>
             <li>Laravel</li>
         </ul>
     </section>
-
+ 
     <section>
-        <button>Hubungi Saya</button>
+        <button id="contactBtn">Hubungi Saya</button>
     </section>
 
+     </div>
+</section>
+<section>
+    <h2>Hubungi Saya</h2>
+
+    <form id="contactForm">
+
+        <div>
+            <label>Nama</label>
+            <br>
+            <input type="text" id="nama">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Email</label>
+            <br>
+            <input type="email" id="email">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Pesan</label>
+            <br>
+            <textarea id="pesan"></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit">
+            Kirim Pesan
+        </button>
+
+    </form>
+</section>
+<script src="script.js"></script>
 </body>
+
+
+
+<footer>
+    <p>© 2025 Gaizka</p>
+</footer>
 </html>

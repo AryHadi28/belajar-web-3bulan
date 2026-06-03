@@ -29,7 +29,7 @@ button {
 }
 
 button:hover {
-    background-color: #1d4ed8;
+    background-color: #172d6b;
 }
 
 .skill-list {
@@ -43,4 +43,54 @@ button:hover {
     background-color: #dbeafe;
     padding: 10px;
     border-radius: 5px;
+}
+
+img {
+    width: 150px;
+    border-radius: 70%;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+}
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-list li:hover {
+    background-color: #1d1e68;
+    cursor: pointer;
+}
+
+button {
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
 }
