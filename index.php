@@ -1,11 +1,13 @@
 <?php
 
-$nilai = 80;
+$skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Laravel"
+];
 
-if ($nilai >= 75) {
-    echo "Lulus";
-} else {
-    echo "Tidak Lulus";
-}
+echo $skills[0];
 
 ?>
