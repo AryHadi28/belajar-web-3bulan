@@ -3,8 +3,8 @@
 $nama = "Gaizka";
 $umur = 29;
 $kota = "Banten";
-$pekerjaan = "Programmer"
-$status = "Aktif"
+$pekerjaan = "Programmer";
+$status = "Aktif";
 ?>
 
 <!DOCTYPE html>
