@@ -1,11 +1,22 @@
 <?php
 
-$hobi = [
-    "Membaca",
-    "Coding",
-    "Olahraga"
+$skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Laravel"
 ];
 
-echo $hobi[0];
 
 ?>
+
+<ul>
+
+<?php foreach($skills as $skill): ?>
+
+    <li><?= $skill ?></li>
+
+<?php endforeach; ?>
+
+</ul>
