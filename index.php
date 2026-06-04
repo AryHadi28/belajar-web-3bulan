@@ -1,13 +1,11 @@
 <?php
 
-$skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "Laravel"
+$hobi = [
+    "Membaca",
+    "Coding",
+    "Olahraga"
 ];
 
-echo $skills[3];
+echo $hobi[0];
 
 ?>
