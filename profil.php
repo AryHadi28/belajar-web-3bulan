@@ -10,19 +10,18 @@ $status = "Aktif";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Profil</title>
+    <title>Profil Gaizka</title>
 </head>
 <body>
 
-<h1><?= $nama ?></h1>
+    <h1><?= $nama ?></h1>
 
-<p>Umur: <?= $umur ?></p>
-
-<p>Kota: <?= $kota ?></p>
-
-<p>Pekerjaan: <?= $pekerjaan ?></p>
-
-<p>Status: <?= $status ?></p>
+    <ul>
+        <li>Umur: <?= $umur ?></li>
+        <li>Kota: <?= $kota ?></li>
+        <li>Pekerjaan: <?= $pekerjaan ?></li>
+        <li>Status: <?= $status ?></li>
+    </ul>
 
 </body>
 </html>
