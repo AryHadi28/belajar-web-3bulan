@@ -1,9 +1,9 @@
 <?php
 
-function sapa($nama)
+function tambah($a, $b)
 {
-    echo "Halo $nama";
+    return $a + $b;
 }
 
-sapa("Gaizka");
+echo tambah(10, 5);
 ?>
