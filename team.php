@@ -12,12 +12,16 @@ $team = [
     [
         "nama" => "Siti",
         "role" => "UI Designer"
+    ],
+    [
+    "nama" => "Gaizka",
+    "role" => "Fullstack Developer"
     ]
 ];
 
 function tampilRole($role)
 {
-    return strtoupper($role);
+    return strtoupper($role) . " 🚀";
 }
 
 ?>
