@@ -1,11 +1,18 @@
 <?php
 
-$skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "Laravel"
+$users = [
+    [
+        "nama" => "Budi",
+        "umur" => 25
+    ],
+    [
+        "nama" => "Andi",
+        "umur" => 30
+    ],
+    [
+        "nama" => "Siti",
+        "umur" => 27
+    ]
 ];
 
 
@@ -13,10 +20,10 @@ $skills = [
 
 <ul>
 
-<?php foreach($skills as $skill): ?>
-
-    <li><?= $skill ?></li>
-
-<?php endforeach; ?>
+<?php
+foreach ($users as $user) {
+    echo $user["nama"];
+}
+?>
 
 </ul>

@@ -11,6 +11,12 @@ $skills = [
     "MySQL"
 ];
 
+$tools = [
+    "VS Code",
+    "Git",
+    "Laragon",
+    "MySQL"
+];
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +35,18 @@ $skills = [
 <?php foreach($skills as $skill): ?>
 
     <li><?= $skill ?></li>
+
+<?php endforeach; ?>
+
+</ul>
+
+<h2>Tools yang Digunakan</h2>
+
+<ul>
+
+<?php foreach($tools as $tools): ?>
+
+    <li><?= $tools ?></li>
 
 <?php endforeach; ?>
 
