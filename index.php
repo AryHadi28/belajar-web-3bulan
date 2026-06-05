@@ -1,9 +1,9 @@
 <?php
 
-function salam()
+function sapa($nama)
 {
-    echo "Halo Developer";
+    echo "Halo $nama";
 }
 
-salam();
+sapa("Gaizka");
 ?>
