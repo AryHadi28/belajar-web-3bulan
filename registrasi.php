@@ -36,22 +36,15 @@
 
 </form>
 
-<?php
+<?php if(isset($_POST["nama"])): ?>
 
-if(isset($_POST["nama"]))
-{
-    echo "<h2>=== DATA REGISTRASI ===</h2>";
+<h2>=== DATA REGISTRASI ===</h2>
 
-    echo "Nama: " . $_POST["nama"];
-    echo "<br>";
+<p>Nama: <?= $_POST["nama"] ?></p>
+<p>Email: <?= $_POST["email"] ?></p>
+<p>Kota: <?= $_POST["kota"] ?></p>
 
-    echo "Email: " . $_POST["email"];
-    echo "<br>";
-
-    echo "Kota: " . $_POST["kota"];
-}
-
-?>
+<?php endif; ?>
 
 </body>
 </html>
