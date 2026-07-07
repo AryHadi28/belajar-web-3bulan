@@ -1,21 +1,12 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "belajar_php";
-
 $conn = mysqli_connect(
-    $host,
-    $user,
-    $password,
-    $database
+    "localhost",
+    "root",
+    "",
+    "belajar_php"
 );
 
 if (!$conn) {
-    die("Koneksi gagal");
+    die("Koneksi Database Gagal");
 }
-
-echo "Koneksi berhasil";
-
-?>

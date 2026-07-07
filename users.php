@@ -1,18 +1,10 @@
 <?php
 
-$conn = mysqli_connect(
-    "localhost",
-    "root",
-    "",
-    "belajar_php"
-);
+require 'koneksi.php';
 
 $query = "SELECT * FROM users";
 
-$result = mysqli_query(
-    $conn,
-    $query
-);
+$result = mysqli_query($conn, $query);
 
 ?>
 
